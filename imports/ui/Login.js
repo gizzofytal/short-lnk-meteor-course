@@ -33,7 +33,7 @@ export default class Login extends React.Component{
     return (
         <div className="boxed-view">
           <div className="boxed-view__box">
-            <h1>Login  Short Link</h1>
+            <h1>Login into Short Link</h1>
 
             {this.state.error ? <p> {this.state.error} </p> : undefined}
 
@@ -42,7 +42,7 @@ export default class Login extends React.Component{
               <input type="password" ref="password" name="password" placeholder="Password"/>
               <button className="button">Login</button>
             </form>
-            
+
             <Link to="/signup">Create a new account?</Link>
           </div>
         </div>
